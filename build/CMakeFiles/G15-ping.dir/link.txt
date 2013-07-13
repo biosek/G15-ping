@@ -1,0 +1,3 @@
+C:\Programing\CMake2-8\bin\cmake.exe -E remove -f CMakeFiles\G15-ping.dir/objects.a
+c:\Programing\MinGW\bin\ar.exe cr CMakeFiles\G15-ping.dir/objects.a @CMakeFiles\G15-ping.dir\objects1.rsp
+c:\Programing\MinGW\bin\g++.exe      -mwindows -Wl,--whole-archive CMakeFiles\G15-ping.dir/objects.a -Wl,--no-whole-archive  -o G15-ping.exe -Wl,--out-implib,libG15-ping.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ..\SDKLibs\x64\lgLcd.lib ..\SDKLibs\x86\lgLcd.lib -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

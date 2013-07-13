@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="G15-ping" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="C:/Users/Biosek/Downloads/cs/G15-ping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="G15-ping">
+         <Option output="C:/Users/Biosek/Downloads/cs/G15-ping/build/G15-ping.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Biosek/Downloads/cs/G15-ping/build" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include" />
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include/SDK" />
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include/SDK/LCDGUI" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 G15-ping" />
+            <CompileFile command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="G15-ping/fast">
+         <Option output="C:/Users/Biosek/Downloads/cs/G15-ping/build/G15-ping.exe" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="C:/Users/Biosek/Downloads/cs/G15-ping/build" />
+         <Option object_output="./" />
+         <Option type="0" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include" />
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include/SDK" />
+            <Add directory="c:/Users/Biosek/Downloads/cs/G15-ping/include/SDK/LCDGUI" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 G15-ping/fast" />
+            <CompileFile command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="edit_cache">
+         <Option working_dir="C:/Users/Biosek/Downloads/cs/G15-ping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="C:/Users/Biosek/Downloads/cs/G15-ping/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="c:/Programing/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Biosek/Downloads/cs/G15-ping/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/G15-ping.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/EZ_LCD.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/EZ_LCD_Page.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDBase.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDBitmap.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDCollection.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDGfx.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDIcon.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDManager.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDOutput.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDProgressBar.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDScrollingText.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDStreamingText.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDText.cpp">
+      </Unit>
+      <Unit filename="c:/Users/Biosek/Downloads/cs/G15-ping/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
