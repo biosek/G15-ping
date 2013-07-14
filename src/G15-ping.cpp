@@ -77,7 +77,7 @@ DWORD WINAPI DllReadLoop(LPVOID)
 		startup_info.dwFlags = STARTF_USESTDHANDLES | STARTF_USESHOWWINDOW;
 		startup_info.wShowWindow = SW_HIDE;
 
-        CreateProcessA(NULL, (char*)"ping seznam.cz -n 1", NULL, NULL, TRUE, 0, NULL, NULL, &startup_info, &process_info);
+        CreateProcessA(NULL, (char*)"ping google.com -n 1", NULL, NULL, TRUE, 0, NULL, NULL, &startup_info, &process_info);
 		WaitForSingleObject( process_info.hProcess, INFINITE );
 		CloseHandle( process_info.hProcess );
 		CloseHandle( process_info.hThread );
