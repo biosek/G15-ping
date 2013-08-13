@@ -37,22 +37,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Programing\CMake2-8\bin\cmake.exe
+CMAKE_COMMAND = "C:\Programming\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Programing\CMake2-8\bin\cmake.exe -E remove -f
+RM = "C:\Programming\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = C:\Programing\CMake2-8\bin\cmake-gui.exe
+CMAKE_EDIT_COMMAND = "C:\Programming\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = c:\Users\Biosek\Downloads\cs\G15-ping
+CMAKE_SOURCE_DIR = C:\Users\Biosek\Documents\GitHub\G15-ping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Biosek\Downloads\cs\G15-ping\build
+CMAKE_BINARY_DIR = C:\Users\Biosek\Documents\GitHub\G15-ping\build
 
 #=============================================================================
 # Target rules for target CMakeFiles/G15-ping.dir
@@ -61,7 +61,7 @@ CMAKE_BINARY_DIR = C:\Users\Biosek\Downloads\cs\G15-ping\build
 CMakeFiles/G15-ping.dir/all:
 	$(MAKE) -f CMakeFiles\G15-ping.dir\build.make CMakeFiles/G15-ping.dir/depend
 	$(MAKE) -f CMakeFiles\G15-ping.dir\build.make CMakeFiles/G15-ping.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles  1 2 3 4 5 6 7 8 9 10 11 12 13 14 15
 	@echo Built target G15-ping
 .PHONY : CMakeFiles/G15-ping.dir/all
 
@@ -71,9 +71,9 @@ all: CMakeFiles/G15-ping.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/G15-ping.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles 15
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/G15-ping.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles 0
 .PHONY : CMakeFiles/G15-ping.dir/rule
 
 # Convenience name for target.

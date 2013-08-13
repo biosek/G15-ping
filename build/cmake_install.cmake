@@ -1,4 +1,4 @@
-# Install script for directory: c:/Users/Biosek/Downloads/cs/G15-ping
+# Install script for directory: C:/Users/Biosek/Documents/GitHub/G15-ping
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "C:/Users/Biosek/Downloads/cs/G15-ping/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "C:/Users/Biosek/Documents/GitHub/G15-ping/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "C:/Users/Biosek/Downloads/cs/G15-ping/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "C:/Users/Biosek/Documents/GitHub/G15-ping/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

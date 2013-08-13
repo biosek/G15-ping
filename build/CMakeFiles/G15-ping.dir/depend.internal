@@ -12,7 +12,7 @@ CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj
  ../include/SDK/LCDGUI/LCDManager.h
  ../include/SDK/LCDGUI/LCDOutput.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/G15-ping.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/G15-ping.cpp
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj
  ../include/SDK/EZ_LCD.h
  ../include/SDK/EZ_LCD_Defines.h
@@ -24,7 +24,7 @@ CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj
  ../include/SDK/LCDGUI/LCDOutput.h
  ../include/SDK/StdAfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/EZ_LCD.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/EZ_LCD.cpp
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj
  ../include/SDK/EZ_LCD.h
  ../include/SDK/EZ_LCD_Defines.h
@@ -41,7 +41,7 @@ CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj
  ../include/SDK/LCDGUI/LCDText.h
  ../include/SDK/StdAfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/EZ_LCD_Page.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/EZ_LCD_Page.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj
  ../include/SDK/LCDGUI/LCDAnimatedBitmap.h
  ../include/SDK/LCDGUI/LCDBase.h
@@ -49,41 +49,41 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/StdAfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDBase.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDBase.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDBitmap.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDBitmap.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDBitmap.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDCollection.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDCollection.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDCollection.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDGfx.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDGfx.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/LCDGUI/LCDIcon.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDIcon.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDIcon.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDCollection.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/LCDGUI/LCDManager.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDManager.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDManager.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDCollection.h
@@ -91,20 +91,20 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj
  ../include/SDK/LCDGUI/LCDManager.h
  ../include/SDK/LCDGUI/LCDOutput.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDOutput.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDOutput.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/LCDGUI/LCDProgressBar.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDProgressBar.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDProgressBar.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/LCDGUI/LCDScrollingText.h
  ../include/SDK/LCDGUI/LCDText.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDScrollingText.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDScrollingText.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDCollection.h
@@ -112,10 +112,10 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj
  ../include/SDK/LCDGUI/LCDStreamingText.h
  ../include/SDK/LCDGUI/LCDText.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDStreamingText.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDStreamingText.cpp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj
  ../include/SDK/LCDGUI/LCDBase.h
  ../include/SDK/LCDGUI/LCDGfx.h
  ../include/SDK/LCDGUI/LCDText.h
  ../include/SDK/lglcd.h
- c:/Users/Biosek/Downloads/cs/G15-ping/src/SDK/LCDGUI/LCDText.cpp
+ C:/Users/Biosek/Documents/GitHub/G15-ping/src/SDK/LCDGUI/LCDText.cpp

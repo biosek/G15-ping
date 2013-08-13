@@ -25,22 +25,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Programing\CMake2-8\bin\cmake.exe
+CMAKE_COMMAND = "C:\Programming\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Programing\CMake2-8\bin\cmake.exe -E remove -f
+RM = "C:\Programming\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = C:\Programing\CMake2-8\bin\cmake-gui.exe
+CMAKE_EDIT_COMMAND = "C:\Programming\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = c:\Users\Biosek\Downloads\cs\G15-ping
+CMAKE_SOURCE_DIR = C:\Users\Biosek\Documents\GitHub\G15-ping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Biosek\Downloads\cs\G15-ping\build
+CMAKE_BINARY_DIR = C:\Users\Biosek\Documents\GitHub\G15-ping\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/G15-ping.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj: ../src/G15-ping.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\G15-ping.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\G15-ping.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\G15-ping.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\G15-ping.cpp
 
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/G15-ping.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\G15-ping.cpp > CMakeFiles\G15-ping.dir\src\G15-ping.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\G15-ping.cpp > CMakeFiles\G15-ping.dir\src\G15-ping.cpp.i
 
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/G15-ping.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\G15-ping.cpp -o CMakeFiles\G15-ping.dir\src\G15-ping.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\G15-ping.cpp -o CMakeFiles\G15-ping.dir\src\G15-ping.cpp.s
 
 CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj.requires
@@ -78,17 +78,17 @@ CMakeFiles/G15-ping.dir/src/G15-ping.cpp.obj.provides.build: CMakeFiles/G15-ping
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj: ../src/SDK/EZ_LCD.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD.cpp > CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD.cpp > CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD.cpp -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD.cpp -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj.requires
@@ -102,17 +102,17 @@ CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD.cpp.obj.provides.build: CMakeFiles/G15-pi
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj: ../src/SDK/EZ_LCD_Page.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD_Page.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD_Page.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD_Page.cpp > CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD_Page.cpp > CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\EZ_LCD_Page.cpp -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\EZ_LCD_Page.cpp -o CMakeFiles\G15-ping.dir\src\SDK\EZ_LCD_Page.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj.requires
@@ -126,17 +126,17 @@ CMakeFiles/G15-ping.dir/src/SDK/EZ_LCD_Page.cpp.obj.provides.build: CMakeFiles/G
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj: ../src/SDK/LCDGUI/LCDAnimatedBitmap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDAnimatedBitmap.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj.requires
@@ -150,17 +150,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDAnimatedBitmap.cpp.obj.provides.build:
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj: ../src/SDK/LCDGUI/LCDBase.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBase.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBase.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBase.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBase.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBase.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBase.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBase.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj.requires
@@ -174,17 +174,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBase.cpp.obj.provides.build: CMakeFile
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj: ../src/SDK/LCDGUI/LCDBitmap.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDBitmap.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDBitmap.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj.requires
@@ -198,17 +198,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDBitmap.cpp.obj.provides.build: CMakeFi
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj: ../src/SDK/LCDGUI/LCDCollection.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDCollection.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDCollection.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj.requires
@@ -222,17 +222,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDCollection.cpp.obj.provides.build: CMa
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj: ../src/SDK/LCDGUI/LCDGfx.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDGfx.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDGfx.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj.requires
@@ -246,17 +246,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDGfx.cpp.obj.provides.build: CMakeFiles
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj: ../src/SDK/LCDGUI/LCDIcon.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDIcon.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDIcon.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj.requires
@@ -270,17 +270,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDIcon.cpp.obj.provides.build: CMakeFile
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj: ../src/SDK/LCDGUI/LCDManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDManager.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDManager.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDManager.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDManager.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDManager.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDManager.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDManager.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj.requires
@@ -294,17 +294,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDManager.cpp.obj.provides.build: CMakeF
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj: ../src/SDK/LCDGUI/LCDOutput.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDOutput.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDOutput.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj.requires
@@ -318,17 +318,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDOutput.cpp.obj.provides.build: CMakeFi
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj: ../src/SDK/LCDGUI/LCDProgressBar.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDProgressBar.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDProgressBar.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj.requires
@@ -342,17 +342,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDProgressBar.cpp.obj.provides.build: CM
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj: ../src/SDK/LCDGUI/LCDScrollingText.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDScrollingText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDScrollingText.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj.requires
@@ -366,17 +366,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDScrollingText.cpp.obj.provides.build: 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj: ../src/SDK/LCDGUI/LCDStreamingText.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDStreamingText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDStreamingText.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj.requires
@@ -390,17 +390,17 @@ CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDStreamingText.cpp.obj.provides.build: 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj: CMakeFiles/G15-ping.dir/flags.make
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj: CMakeFiles/G15-ping.dir/includes_CXX.rsp
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj: ../src/SDK/LCDGUI/LCDText.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj"
-	c:\Programing\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.obj -c c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDText.cpp
+	C:\Programming\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.obj -c C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDText.cpp
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.i"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.i
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDText.cpp > CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.i
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.s"
-	c:\Programing\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S c:\Users\Biosek\Downloads\cs\G15-ping\src\SDK\LCDGUI\LCDText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.s
+	C:\Programming\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Biosek\Documents\GitHub\G15-ping\src\SDK\LCDGUI\LCDText.cpp -o CMakeFiles\G15-ping.dir\src\SDK\LCDGUI\LCDText.cpp.s
 
 CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj.requires:
 .PHONY : CMakeFiles/G15-ping.dir/src/SDK/LCDGUI/LCDText.cpp.obj.requires
@@ -481,6 +481,6 @@ CMakeFiles/G15-ping.dir/clean:
 .PHONY : CMakeFiles/G15-ping.dir/clean
 
 CMakeFiles/G15-ping.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" c:\Users\Biosek\Downloads\cs\G15-ping c:\Users\Biosek\Downloads\cs\G15-ping C:\Users\Biosek\Downloads\cs\G15-ping\build C:\Users\Biosek\Downloads\cs\G15-ping\build C:\Users\Biosek\Downloads\cs\G15-ping\build\CMakeFiles\G15-ping.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Biosek\Documents\GitHub\G15-ping C:\Users\Biosek\Documents\GitHub\G15-ping C:\Users\Biosek\Documents\GitHub\G15-ping\build C:\Users\Biosek\Documents\GitHub\G15-ping\build C:\Users\Biosek\Documents\GitHub\G15-ping\build\CMakeFiles\G15-ping.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/G15-ping.dir/depend
 

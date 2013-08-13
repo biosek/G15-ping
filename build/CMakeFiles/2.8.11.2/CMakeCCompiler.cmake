@@ -1,12 +1,12 @@
-set(CMAKE_C_COMPILER "c:/Programing/MinGW/bin/gcc.exe")
+set(CMAKE_C_COMPILER "C:/Programming/MinGW/bin/gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "4.7.2")
 set(CMAKE_C_PLATFORM_ID "MinGW")
 
-set(CMAKE_AR "c:/Programing/MinGW/bin/ar.exe")
-set(CMAKE_RANLIB "c:/Programing/MinGW/bin/ranlib.exe")
-set(CMAKE_LINKER "c:/Programing/MinGW/bin/ld.exe")
+set(CMAKE_AR "C:/Programming/MinGW/bin/ar.exe")
+set(CMAKE_RANLIB "C:/Programming/MinGW/bin/ranlib.exe")
+set(CMAKE_LINKER "C:/Programming/MinGW/bin/ld.exe")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS TRUE)
@@ -49,7 +49,7 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "c:/Programing/MinGW/lib/gcc/mingw32/4.7.2;c:/Programing/MinGW/lib/gcc;c:/Programing/MinGW/mingw32/lib;c:/Programing/MinGW/lib")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "c:/Programming/MinGW/lib/gcc/mingw32/4.7.2;c:/Programming/MinGW/lib/gcc;c:/Programming/MinGW/mingw32/lib;c:/Programming/MinGW/lib")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 
 
